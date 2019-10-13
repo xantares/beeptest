@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:batsHIIT="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/share_menu"
+        android:orderInCategory="100"
+        batsHIIT:showAsAction="always"
+        android:title="@string/share_workout"
+		batsHIIT:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+		/>
+
+</menu>

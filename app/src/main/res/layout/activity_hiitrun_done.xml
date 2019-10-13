@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/hiitRunLayoutDone"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textSize="36sp"
+        android:text="@string/share_workout"
+        />
+        <!-- android:drawableRight="@android:drawable/arrow_up_float" -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:gravity="center"
+    >
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/done_string"
+    android:gravity="center"
+    android:textSize="80sp"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hiit_time_str"
+    android:gravity="center"
+    android:textSize="36sp"
+    />
+<TextView
+    android:id="@+id/hiit_time_done"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/zero_string"
+    android:gravity="center"
+    android:textSize="80sp"    
+    />
+	<View style="@style/Spacer" />
+	<View style="@style/Spacer" />
+	<View style="@style/Spacer" />
+	<View style="@style/Spacer" />
+	<View style="@style/Spacer" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	<View style="@style/SpacerW1" />
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="6"
+    android:layout_height="wrap_content"
+    android:text="@string/fb_broken"
+    android:gravity="center"
+    android:textSize="14sp" />
+	<View style="@style/SpacerW1" />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
